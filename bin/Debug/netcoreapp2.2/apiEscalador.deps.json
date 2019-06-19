@@ -26,22 +26,13 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0",
-          "apiConsumidor": "1.0.0"
+          "Microsoft.NETCore.App": "2.2.0"
         },
         "runtime": {
           "apiEscalador.dll": {}
         },
         "compile": {
           "apiEscalador.dll": {}
-        }
-      },
-      "apiConsumidor/1.0.0": {
-        "runtime": {
-          "apiConsumidor.dll": {}
-        },
-        "compile": {
-          "apiConsumidor.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3242,11 +3233,6 @@
   },
   "libraries": {
     "apiEscalador/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "apiConsumidor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
