@@ -21,7 +21,6 @@ C:\Users\852038\Desktop\LaboratorioOS\apiEscalador\apiEscalador\bin\Debug\netcor
 C:\Users\852038\Desktop\LaboratorioOS\apiEscalador\apiEscalador\bin\Debug\netcoreapp2.2\apiEscalador.runtimeconfig.dev.json
 C:\Users\852038\Desktop\LaboratorioOS\apiEscalador\apiEscalador\bin\Debug\netcoreapp2.2\apiEscalador.dll
 C:\Users\852038\Desktop\LaboratorioOS\apiEscalador\apiEscalador\bin\Debug\netcoreapp2.2\apiEscalador.pdb
-C:\Users\852038\Desktop\LaboratorioOS\apiEscalador\apiEscalador\obj\Debug\netcoreapp2.2\apiEscalador.csprojAssemblyReference.cache
 C:\Users\852038\Desktop\LaboratorioOS\apiEscalador\apiEscalador\obj\Debug\netcoreapp2.2\apiEscalador.RazorTargetAssemblyInfo.cache
 C:\Users\852038\Desktop\LaboratorioOS\apiEscalador\apiEscalador\obj\Debug\netcoreapp2.2\apiEscalador.dll
 C:\Users\852038\Desktop\LaboratorioOS\apiEscalador\apiEscalador\obj\Debug\netcoreapp2.2\apiEscalador.pdb

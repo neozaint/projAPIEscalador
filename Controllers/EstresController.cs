@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using EstresAPI;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Serilog;
 
 namespace apiEscalador.Controllers
 {
@@ -22,6 +23,8 @@ namespace apiEscalador.Controllers
         [HttpGet("Saludar")]
         public async Task<IActionResult> Saludar()
         {
+            Log.Information("Se invocó el método: "+nameof(Saludar));
+
             await Task.Delay(5000);
             string mensaje = "Hola soy: " + System.Reflection.Assembly.GetExecutingAssembly().FullName + " delay: Task.Delay(5000);";
             return Ok(mensaje);
@@ -35,6 +38,8 @@ namespace apiEscalador.Controllers
         [HttpGet("IncrementarCPU")]
         public async Task<IActionResult> IncrementarCPU([FromQuery] int numero)
         {
+
+            Log.Information("Se invocó el método: " + nameof(Saludar));
             List<string> mersenne = Mersenne.CalcularMersenne(numero);
 
             Ejec.Start();
